@@ -1,0 +1,46 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Move On Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 36px; /* Adjust the font size as needed */
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px; /* Adjust the font size as needed */
+            background-color: #007bff; /* Change the background color as needed */
+            color: #fff; /* Change the text color as needed */
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Change the background color on hover */
+        }
+    </style>
+</head>
+<body>
+    
+    <button id="moveOnButton"> <h1> Move On </h1> </button>
+
+    <script>
+        // Function to redirect when the button is clicked
+        document.getElementById("moveOnButton").addEventListener("click", function() {
+            window.location.href = "congrats.html"; // Replace with the actual path to your congratulatory picture page
+        });
+    </script>
+</body>
+</html>
